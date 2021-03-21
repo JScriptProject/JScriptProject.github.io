@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customize Image</title>
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>Change Image Style with <span class="js">JS</span></h1>
+    </div>
+    <div class="main-section">
+        <div class="control">
+            <h3>Controls</h3>
+            <label for="spacing">Spacing</label>
+            <input type="range" name="spacing" min="10" max="50" value="10" data-sizing="px">
+            <label for="blur">Blur</label>
+            <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+            <label for="color">Color</label>
+            <input type="color" name="color" value="#544a4f">
+        </div>
+        <div class="output">
+            <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                alt="Image">
+        </div>
+    </div>
+    <h1 class="boom">BOOM!</h1>
+    <script src="script.js"></script>
+</body>
+
+</html>
