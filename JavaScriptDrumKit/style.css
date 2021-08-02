@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url("/JavaScriptDrumKit/media/background.jpg");
+    background-image: url("https://jscriptproject.github.io/JavaScriptDrumKit/media/background.jpg");
     background-size: cover;
     height: 100vh;
 }
