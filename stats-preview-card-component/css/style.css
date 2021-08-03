@@ -93,7 +93,7 @@ img{
 }
 
 .img-src {
-    content: url(https://jscriptproject.github.io/stats-preview-card-component/images/image-header-mobile.jpg);
+    content: url('https://jscriptproject.github.io/stats-preview-card-component/images/image-header-mobile.jpg');
 }
 
 .onemore {
@@ -144,6 +144,6 @@ img{
    }
 
    .img-src {
-       content: url(https://jscriptproject.github.io/stats-preview-card-component/images/image-header-desktop.jpg);
+       content: url('https://jscriptproject.github.io/stats-preview-card-component/images/image-header-desktop.jpg');
    }
 }
