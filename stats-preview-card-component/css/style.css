@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+   --main-background:hsl(233, 47%, 7%);
+   --card-background:hsl(244, 38%, 16%);
+   --main-color:hsl(277, 64%, 61%);
+   --main-paragraph: hsla(0, 0%, 100%, 0.75);
+   --stat-heading: hsla(0, 0%, 100%, 0.6);
+   --plain-white: hsla(0, 0%, 100%);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-background);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 480px;
+    margin: 0.5em 1.5em;
+    background-color: var(--card-background);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+article{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.2em 1em 1em 1.2em;
+}
+
+.image-section{
+    height: auto;
+    max-width: 480px;
+    background-color: var(--main-color);
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+}
+/* element styles */
+.heading h1{
+    font-size: 1.8rem;
+    color:var(--plain-white);
+    font-weight: 700;
+}
+
+.text-highlight{
+    color:var(--main-color);
+}
+
+.heading p{
+    font-size: 13px;
+    color:var(--stat-heading);
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+    margin:1em 0;
+    font-weight: 400;
+}
+
+.stats-head h2{
+    color:var(--plain-white);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.stats-head p{
+    color: var(--stat-heading);
+    font-size: 11px;
+    font-weight: 400;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-src {
+    content: url(/images/image-header-mobile.jpg);
+}
+
+.onemore {
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+}
+
+/* @media (min-width : 1125px){
+    section {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        max-width: 1120px;
+    }
+    
+    article{
+        margin: 3em 4.5em 3em 4em; 
+        text-align: start;
+    }
+   .image-section {
+       max-width: 560px;
+   }
+
+   .stats {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+   }
+
+   .heading h1
+   {
+       font-size: 2.4rem;
+       line-height: 1.5em;
+   }
+
+   .heading p {
+       font-size: 14px;
+       letter-spacing: 0.5px;
+   }
+
+   .stats-head h2{
+       font-size: 1.4rem;
+       margin-bottom: 0.5em;
+   }
+
+   .stats-head p {
+       font-size: 12px;
+       font-weight: 400;
+   }
+
+   .img-src {
+       content: url(/images/image-header-desktop.jpg);
+   }
+} */
